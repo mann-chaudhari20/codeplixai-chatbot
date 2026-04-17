@@ -39,7 +39,7 @@ async function sendMessage() {
   userInput.value = ''
   showTyping()
 
-  const response = await fetch('http://localhost:3000/chat', {
+const response = await fetch('https://codeplixai-chatbot.onrender.com/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: userMessage })
