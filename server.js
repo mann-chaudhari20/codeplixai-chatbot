@@ -92,8 +92,10 @@ app.post('/chat', async (req, res) => {
           - Preventive: Data-driven insights to mitigate risks
           
           CONTACT:
-          Located in New Jersey, USA
-          Website: www.s3connections.com
+          USA Headquarters: New Jersey, USA
+          India Office: S3 Connections has an office in India serving clients across the region.
+          Website: www.s3connections.com / www.codeplixai.com
+          For inquiries visit the contact page or reach out directly through the website.
           
           ADDITIONAL WEBSITE CONTENT:
           ${websiteContent}
