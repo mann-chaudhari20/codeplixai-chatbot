@@ -3,14 +3,12 @@ const userInput = document.querySelector('#userInput')
 const chatBox = document.querySelector('#chatBox')
 
 const services = [
-  { name: 'Managed IT Services', url: 'https://www.s3connections.com/solution/managed-it-services' },
-  { name: 'Cloud Computing', url: 'https://www.s3connections.com/services' },
-  { name: 'App Development', url: 'https://www.s3connections.com/services' },
-  { name: 'Testing Services', url: 'https://www.s3connections.com/service/testing' },
-  { name: 'Digital Transformation', url: 'https://www.s3connections.com/about-us/why-our-digitalization' },
-  { name: 'Engineering R&D', url: 'https://www.s3connections.com/services' },
-  { name: 'HR & Talent Solutions', url: 'https://www.s3connections.com/services' },
-  { name: 'Training Services', url: 'https://www.s3connections.com/services' }
+  { name: 'Strategic Process Outsourcing', url: 'https://codeplixai.com/strategic-process-outsourcing/' },
+  { name: 'IT Professional Services', url: 'https://codeplixai.com/it-professional-services/' },
+  { name: 'Agentic Business Intelligence & Data', url: 'https://codeplixai.com/agentic-business-intelligence-and-data-solutions/' },
+  { name: 'Agile Delivery Pods', url: 'https://codeplixai.com/agile-delivery-pods/' },
+  { name: 'Industries', url: 'https://codeplixai.com/industries/' },
+  { name: 'Case Studies', url: 'https://codeplixai.com/s3tech-case-studies/' }
 ]
 
 function addMessage(text, sender) {
@@ -46,7 +44,7 @@ function showServiceButtons() {
 }
 
 function isAskingAboutServices(message) {
-  const keywords = ['service', 'services', 'offer', 'provide', 'help', 'what do you do']
+  const keywords = ['service', 'services', 'offer', 'provide', 'help', 'what do you do', 'value engine']
   const lower = message.toLowerCase()
   return keywords.some(function(keyword) {
     return lower.includes(keyword)
